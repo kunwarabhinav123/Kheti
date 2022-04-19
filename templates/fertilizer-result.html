@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/crop.css')}}">
+</head>
+<body>
+    <header>
+        <div class="home"><a href="{{url_for('home')}}"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a></div>
+  </header>
+  
+    <div class="container_result ">
+        <div class="row">
+            <div class="col-sm py-2 py-md-3">
+                <div class="card card-body" style="justify-content: center;">
+                     <h1 class="text-center"><b>You should use <i>{{ prediction }} </i>in your farm</b></h1>
+                </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>

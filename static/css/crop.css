@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+header{
+    height:80px;
+    width:100%;
+    background-color: #02231a;
+    /* border:1px solid black;*/
+   
+}
+
+.home{
+   height:50px;
+   width:10%;
+   background-color: #02231a;
+   /* border:1px solid black;*/
+   float: right;
+   margin-right: 30px;
+   margin-top: 10px;
+   text-align: center;
+
+}
+.home a{
+    height:40px;
+    width:10%;
+   /* border:1px solid black;*/
+    padding:10px;
+    position: relative;
+    top:30%;
+    text-decoration: none;
+    background-color:yellow;
+    color:#02231a;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s;
+}
+
+.home a:hover{
+    color:yellow;
+    background-color: #02231a;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s;
+}
+
+.container{
+height: 900px;
+    width:100%;
+   background-color: #02231a;
+    overflow: hidden;
+  
+   /* ;*/
+}
+
+/*.container_1{
+    height:400px;
+    width:100%;
+    bordeR:1px solid white;
+    background-image: url("images/grain.jpg");
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
+    z-index: -1;
+    opacity: 0.2;
+    margin-top: 20px;
+    margin-left: 10%;
+    
+}*/
+
+.form_container_1{
+    height:100px;
+    width:40%;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+    position:relative;
+    left:30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+   
+}
+
+.form_container_2{
+    height:700px;
+    width:50%;
+    
+    background-color: #1c5747;
+    position: relative;
+    top:5%;
+    left:25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+    border-radius: 10px;
+
+}
+
+.form{
+    /*border:1px solid black;*/
+    padding:40px;
+    
+}
+
+form-control{
+    margin-bottom:20px;
+    position: relative;
+}
+.form-control label{
+    color:white;
+    display: inline-block;
+   margin-bottom:5px;
+   padding: 10px;
+    font-weight: 200;
+}
+.form-control input{
+    width:100%;
+    border:2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding:10px;
+
+}
+.form-control input:focus{
+    outline:0;
+    border-color:#777;
+}
+.btn:hover{
+  color:yellow;
+    background-color: #02231a;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s;
+}
+
+.container_result{
+    height:200px;
+    width:60%;
+    border:1px solid black;
+    margin:19%;
+    background-color: #1c5747;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+    border-radius: 10px;
+    color:white;
+
+}
+
+.text-center{
+     margin:9%;
+
+}
